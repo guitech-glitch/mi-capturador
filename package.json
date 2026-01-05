@@ -1,10 +1,10 @@
 {
   "name": "media-sniffer-web",
   "version": "1.0.0",
-  "description": "Capturador de enlaces multimedia",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "npx puppeteer browsers install chrome"
   },
   "dependencies": {
     "express": "^4.19.0",
